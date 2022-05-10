@@ -1,0 +1,60 @@
+
+.arazas {
+    background: var(--light-bg);
+  }
+  
+  .arazas .box-container {
+   
+    display: grid;
+    -ms-grid-columns: (minmax(30rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+  }
+  
+  .arazas .box-container .box {
+    background: var(--white);
+    text-align: center;
+    padding: 2rem;
+    border: var(--border);
+  
+  }
+  
+  .arazas .box-container .box i {
+    font-size: 3rem;
+    height: 7rem;
+    width: 7rem;
+    line-height: 7rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    background: var(--yellow);
+    color: var(--black);
+  }
+  
+  .arazas .box-container .box h3 {
+    font-size: 2rem;
+    color: var(--black);
+    text-transform: capitalize;
+    font-weight: normal;
+  }
+  
+  .arazas .box-container .box .price {
+    padding: 1rem 0;
+    font-size: 5rem;
+    color: var(--black);
+    text-transform: capitalize;
+  }
+  
+  .arazas .box-container .box .price span {
+    font-size: 2rem;
+  }
+  
+  .arazas .box-container .box .list {
+    padding: 1rem 0;
+  }
+  
+  .arazas .box-container .box .list p {
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    color: var(--light-color);
+    line-height: 2;
+  }

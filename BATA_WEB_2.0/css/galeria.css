@@ -1,0 +1,39 @@
+.projects {
+    background: var(--black);
+  }
+  
+  .projects .heading {
+    color: var(--white);
+  }
+  
+  .projects .box-container {
+ 
+    display: grid;
+    -ms-grid-columns: (minmax(30rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+  }
+  
+  .projects .box-container .box {
+    cursor: initial;
+  }
+  
+  .projects .box-container .box:hover .image img {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  
+  .projects .box-container .box .image {
+    height: 40rem;
+    overflow: hidden;
+  }
+  
+  .projects .box-container .box .image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+  }
+  

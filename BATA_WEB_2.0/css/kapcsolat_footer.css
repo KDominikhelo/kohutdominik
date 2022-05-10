@@ -1,0 +1,97 @@
+
+
+.kapcsolat {
+  background: var(--black);
+}
+
+.kapcsolat .heading {
+  color: var(--white);
+}
+
+.kapcsolat .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.kapcsolat .row .map {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 41rem;
+          flex: 1 1 41rem;
+  width: 100%;
+}
+
+.kapcsolat .row form {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 41rem;
+          flex: 1 1 41rem;
+  background: var(--white);
+  padding: 2rem;
+}
+
+.kapcsolat .row form h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+  text-transform: capitalize;
+}
+
+.kapcsolat .row form .box {
+  margin: .7rem 0;
+  width: 100%;
+  padding: 1.5rem 0;
+  border-bottom: var(--border);
+  font-size: 1.6rem;
+  color: var(--light-color);
+}
+
+.kapcsolat .row form .box:focus {
+  border-color: var(--yellow);
+}
+
+.kapcsolat .row form textarea {
+  height: 15rem;
+  resize: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.labresz {
+    text-align: center;
+  }
+  
+  .labresz .links .btn {
+    margin: .5rem;
+  }
+  
+  .labresz .credit {
+    font-size: 2rem;
+    color: var(--black);
+    text-transform: capitalize;
+    margin-top: 2rem;
+    padding-top: 1rem;
+  }
+  
+  .labresz .credit span {
+    color: var(--yellow);
+  }
+  
+  
